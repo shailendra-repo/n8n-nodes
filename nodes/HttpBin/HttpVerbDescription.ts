@@ -21,9 +21,10 @@ export const httpVerbOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'GET',
-						url: '/get',
+						url: 'http://localhost/get',
 					},
 				},
+				action: 'Get a http verb',
 			},
 			{
 				name: 'DELETE',
@@ -32,9 +33,10 @@ export const httpVerbOperations: INodeProperties[] = [
 				routing: {
 					request: {
 						method: 'DELETE',
-						url: '/delete',
+						url: 'http://localhost/delete',
 					},
 				},
+				action: 'Delete a http verb',
 			},
 		],
 		default: 'get',
